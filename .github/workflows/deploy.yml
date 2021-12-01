@@ -1,0 +1,29 @@
+name: Deploy
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up Go
+      uses: actions/setup-go@v2
+      with:
+        go-version: 1.17
+
+    - name: Build generator
+      run: go build -v ./...
+      working-directory: ./generator
+
+    - name: Generate update data
+      run: generator/airmessage-update
+      
+    - name: Deploy
+      uses: JamesIves/github-pages-deploy-action@4
+      with:
+        branch: gh-pages
+        folder: output

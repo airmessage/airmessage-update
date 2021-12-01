@@ -23,7 +23,7 @@ jobs:
       run: generator/airmessage-update
       
     - name: Deploy
-      uses: JamesIves/github-pages-deploy-action@v4.1.7
+      uses: JamesIves/github-pages-deploy-action@4.1.7
       with:
         branch: gh-pages
         folder: output

@@ -5,4 +5,5 @@ osRequirement: "10.10"
 protocolRequirement: "5.5"
 
 url: "https://airmessage.org/update/AirMessage.app.zip"
+remoteInstallable: true
 externalDownload: false

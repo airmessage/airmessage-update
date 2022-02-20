@@ -1,3 +1,1 @@
-- App updates are installed on top of the app's existing location
-- Improved the reliability of generating a FaceTime link when FaceTime isn't running
-- Added an experimental warning to FaceTime integration in preferences
+This update drops support for unknown encryption values from incoming Connect messages

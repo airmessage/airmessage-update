@@ -1,9 +1,9 @@
-versionCode: 34
-versionName: "4.0.0-alpha5"
+versionCode: 35
+versionName: "4.0.0-alpha6"
 
 osRequirement: "10.10"
 protocolRequirement: "5.5"
 
-url: "https://github.com/airmessage/airmessage-server-next/releases/download/v4.0.0-alpha5/AirMessage-4.0.0-alpha5.zip"
+url: "https://github.com/airmessage/airmessage-server-next/releases/download/v4.0.0-alpha6/AirMessage-4.0.0-alpha6.zip"
 remoteInstallable: true
 externalDownload: false

@@ -1,6 +1,10 @@
-This release improves the stability of AirMessage Server 4.
+Thank you to all users testing the alpha version of AirMessage Server!
 
-- Fixed a crash when querying multiple conversations for base information
-- Fixed a crash when connecting and disconnecting TCP clients in rapid succession
-- Fixed a bug that would cause encrypted messages to be sent to non-verified TCP clients
-- Improved error reporting when an AppleScript file fails to load
+This update fixes a handful of issues that have come up since the last release:
+
+- Fixed a crash when fetching attachments without a filename
+- Fixed a crash when disconnecting TCP clients while uploading data
+- Fixed the _Preferences…_ menu item not disabling when in setup mode
+- Fixed the width of buttons on the password input sheet
+- Improved error logging for AppleScript and other custom errors
+- Updated to OpenSSL 3.0.1, and updated client libraries used for Google account authentication

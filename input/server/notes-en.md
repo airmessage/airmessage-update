@@ -1,10 +1,10 @@
-AirMessage Server 4 makes AirMessage faster, more capable, and more secure.
+Thank you to all users testing the alpha version of AirMessage Server!
 
-- Create and receive FaceTime calls on macOS 12+
-- Send attachment files, even on macOS 11+
-- Create iMessage group chats from Android or the web, even on macOS 11+
-- See who's connected to your server at any time with the new client log
-- Install server updates remotely from Android or the web
-- Keep your Mac running smoothly with energy efficiency and resource usage improvements
+This update fixes a handful of issues that have come up since the last release:
 
-AirMessage Server 4 is compatible with Intel and Apple Silicon Macs running OS X 10.10 Yosemite or later.
+- Fixed a crash when fetching attachments without a filename
+- Fixed a crash when disconnecting TCP clients while uploading data
+- Fixed the _Preferences…_ menu item not disabling when in setup mode
+- Fixed the width of buttons on the password input sheet
+- Improved error logging for AppleScript and other custom errors
+- Updated to OpenSSL 3.0.1, and updated client libraries used for Google account authentication

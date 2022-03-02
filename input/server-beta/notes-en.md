@@ -1,10 +1,7 @@
-Thank you to all users testing the alpha version of AirMessage Server!
+This update improves stability and FaceTime compatibility of AirMessage Server.
 
-This update fixes a handful of issues that have come up since the last release:
-
-- Fixed a crash when fetching attachments without a filename
-- Fixed a crash when disconnecting TCP clients while uploading data
-- Fixed the _Preferences…_ menu item not disabling when in setup mode
-- Fixed the width of buttons on the password input sheet
-- Improved error logging for AppleScript and other custom errors
-- Updated to OpenSSL 3.0.1, and updated client libraries used for Google account authentication
+- Fixed a crash that could occur when rapidly connecting and disconnecting clients
+- Fixed update checks not defaulting to enabled
+- Fixed getting the link for incoming FaceTime calls in certain situations
+- Fixed copying FaceTime links taking a long time on certain devices
+- Fixed the status menu item being enabled when it shouldn't be

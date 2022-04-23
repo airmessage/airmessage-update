@@ -1,7 +1,8 @@
-This update improves stability and FaceTime compatibility of AirMessage Server.
+This update improves the stability, compatibility, and security of AirMessage Server.
 
-- Fixed a crash that could occur when rapidly connecting and disconnecting clients
-- Fixed update checks not defaulting to enabled
-- Fixed getting the link for incoming FaceTime calls in certain situations
-- Fixed copying FaceTime links taking a long time on certain devices
-- Fixed the status menu item being enabled when it shouldn't be
+- Fixed a bug where update checks would not download the latest update data for short periods of time
+- Fixed a crash when generating a FaceTime link if the link was not copied correctly
+- Fixed a crash that could occur in certain cases when pinging connected clients
+- Added logging for client connections and disconnections in error reports
+- Improved the security of advanced message fetch requests
+- Upgraded to OpenSSL 3.0.2

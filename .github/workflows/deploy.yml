@@ -8,12 +8,12 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
 
     - name: Set up Go
-      uses: actions/setup-go@v2
+      uses: actions/setup-go@v3
       with:
-        go-version: 1.17
+        go-version: ^1.18
 
     - name: Build generator
       run: go build -v ./...
@@ -23,7 +23,7 @@ jobs:
       run: generator/airmessage-update
       
     - name: Deploy
-      uses: JamesIves/github-pages-deploy-action@4.1.7
+      uses: JamesIves/github-pages-deploy-action@4.3.3
       with:
         branch: gh-pages
         folder: output

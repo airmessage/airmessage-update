@@ -1,7 +1,5 @@
-This update improves the stability and security of AirMessage Server.
+This update improves the stability of AirMessage Server.
 
-- Fixed a bug that could occur on macOS 12.4 where the connection with AirMessage Cloud would be repeatedly interrupted
-- Fixed a crash that could occur when writing to closed direct connections
-- Fixed a crash that could occur when initializing timeouts
-- Fixed a bug where the updating modal would not render correctly
-- Upgraded to OpenSSL 3.0.3
+- Fixed a bug where selecting a port higher than 32,767 would cause the app to crash
+- Fixed a bug where resources would not be cleaned up properly if a TCP client misbehaves
+- Fixed a bug where the onboarding window could be opened multiple times by clicking _Sign in again_

@@ -1,5 +1,11 @@
-This update improves the stability of AirMessage Server.
+**AirMessage Server 4 is now stable!**  
+A big thank you to everyone involved in testing the pre-release builds - you've helped to bring AirMessage Server 4 to everyone.
 
-- Fixed a bug where selecting a port higher than 32,767 would cause the app to crash
-- Fixed a bug where resources would not be cleaned up properly if a TCP client misbehaves
-- Fixed a bug where the onboarding window could be opened multiple times by clicking _Sign in again_
+Future updates will respect your choice to receive beta updates.
+**You have chosen to receive beta updates for AirMessage Server 4.**
+
+To opt-out of beta updates, open AirMessage's _Preferences..._ dialog, and deselect _Receive beta updates_.
+
+- Fixed a bug where all attachments would be downloaded, if the user specified that none should be
+- Added a warning for users upgrading from older versions that AirMessage may need to be fully removed and then re-added to macOS Security lists
+- Updated dependencies

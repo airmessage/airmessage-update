@@ -1,2 +1,3 @@
-- Fixed a bug where the app would crash in certain cases when a TCP client is inadvertently disconnected
-- Fixed a bug where .heic and .caf attachments with non-lowercase extensions would not be converted when downloaded
+- Added initial support for macOS 13 Ventura
+- Fixed a crash when looking up file sizes on certain attachment files
+- Fixed a bug where users on OS X 10.10 - 10.15 would be unable to create a chat with new users

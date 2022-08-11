@@ -1,4 +1,6 @@
-This update improves the reliability of AirMessage Server.
+AirMessage Server 4.1.2 fixes a bug when uploading or downloading attachment files over AirMessage Cloud.
+
+AirMessage Server 4.1.1 has these changes:
 
 - Added an error message to inform the user when an update fails because the app needs to be moved
 - Improved lost connection detection over AirMessage Cloud

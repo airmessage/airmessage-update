@@ -1,9 +1,9 @@
-versionCode: 45
-versionName: "4.1.3"
+versionCode: 46
+versionName: "4.1.4"
 
 osRequirement: "10.10"
 protocolRequirement: "5.5"
 
-url: "https://github.com/airmessage/airmessage-server/releases/download/v4.1.3/AirMessage-4.1.3.zip"
+url: "https://github.com/airmessage/airmessage-server/releases/download/v4.1.4/AirMessage-4.1.4.zip"
 remoteInstallable: true
 externalDownload: false

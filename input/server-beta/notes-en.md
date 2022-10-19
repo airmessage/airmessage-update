@@ -1,4 +1,6 @@
-- Fixed automatic updates on macOS 13 Ventura
-- Fixed a rare crash when loading certain types of text messages from the database
+This update resolves issues with Google sign-in, and improves the stability and reliability of AirMessage Server.
 
-[If you're running macOS 13 Ventura, please download this update directly from here.](https://github.com/airmessage/airmessage-server/releases/download/v4.1.3/AirMessage-4.1.3.zip)
+- Streamlined Google sign-in to work on macOS 13
+- Improved robustness of FaceTime scripts (thanks j4byers!)
+- Improved error reporting when failing to initialize scripts
+- Improved AirMessage Cloud automatic reconnections for external errors
